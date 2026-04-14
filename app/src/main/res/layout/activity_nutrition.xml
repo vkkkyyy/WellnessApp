@@ -50,7 +50,13 @@ iv)Choose Whole Grains: Opt for brown rice, oats, and whole-wheat varieties over
             android:textColor="@color/black"
             android:textSize="16sp" />
 
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewardApp"
+            android:text="Get reward"
+            android:textSize="32sp"
+            android:backgroundTint="#976E6B"/>
     </LinearLayout>
 
 </ScrollView>
