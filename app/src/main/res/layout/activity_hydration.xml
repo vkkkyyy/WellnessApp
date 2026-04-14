@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HydrationActivity"
+    android:background="#4DB6AC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#080C12"/>
+        <!--        below is an image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/hydration"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maintaining proper hydration is essential for nearly every bodily function.\nBeyond just quenching thirst, drinking enough water offers these 10 key health benefits:\n\n1.Improved Brain Performance: Even mild dehydration (as little as 2% fluid loss) can impair concentration, memory, and mood.\n\n2.Boosted Energy Levels: Water helps your heart pump blood more effectively, delivering oxygen and nutrients to your muscles and organs, which reduces fatigue.\n\n3.Joint and Muscle Support: Water acts as a lubricant and shock absorber for your joints. Since cartilage is about 80% water, staying hydrated helps reduce joint pain and stiffness.
+            \n\n4.Weight Management: Drinking water can increase the sense of fullness and boost your metabolism, helping you consume fewer calories during meals.
+            \n\n5.Better Temperature Regulation: Your body dissipates heat through sweat; proper hydration ensures this cooling mechanism works efficiently to prevent overheating.
+            \n\n6.Digestive Harmony: Water is necessary for breaking down food and moving waste through your system, which helps prevent constipation and bloating.
+            \n\n7.Kidney Stone Prevention: Increased fluid intake dilutes the concentration of minerals in your urinary tract, making it harder for painful stones to form.
+            \n\n8.Healthier Skin: Adequate hydration maintains skin elasticity and moisture, which can lead to a brighter, more radiant complexion.
+            \n\n9.Heart Health Support: When you are hydrated, your blood volume is maintained, allowing your heart to pump more easily without the extra strain caused by thickened, dehydrated blood.
+            \n\n10.Headache Prevention: Dehydration is a common trigger for headaches and migraines. Staying hydrated can reduce both the frequency and severity of these episodes. "
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

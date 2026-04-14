@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseActivity"
+    android:background="#FB8C00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#080C12"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/img"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Physical Health Benefits
+            \n\n1.Disease Prevention and Management: Regular activity significantly lowers the risk of developing major illnesses, including heart disease, stroke, type 2 diabetes, and certain cancers (such as colon and breast cancer). For those already diagnosed, exercise helps manage symptoms and reduces complications.
+\n\n2.Heart and Circulatory Health: Exercise strengthens the heart muscle and improves circulation, which helps lower blood pressure and improve cholesterol levels.
+\n\nMental and Brain Health Benefits
+ \n\n 1.Mood Elevation: Physical activity stimulates brain chemicals like endorphins and dopamine, which can leave you feeling happier, more relaxed, and less anxious.
+\n\n2.Stress and Anxiety Relief: Exercise acts as a natural stress reliever by reducing levels of stress hormones like adrenaline and cortisol while providing a meditation in motion that distracts from daily worries."
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/video_view"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity"
+    android:background="#f186c0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arizonia"
+            android:text="Meditation"
+            android:textAlignment="center"
+            android:textColor="#080C12"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/img_1"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Benefits of Meditation\n\n
+            Reduces Stress: Meditation decreases levels of the stress hormone cortisol, which can lower inflammation and improve symptoms of stress-related conditions like IBS and PTSD.\n\n
+            Controls Anxiety: Regular practice helps reduce anxiety symptoms, including phobias, social anxiety, and panic attacks, by improving stress reactivity.\n\n
+            Promotes Emotional Health: Meditation can lead to a more positive outlook on life and an improved self-image by reducing the occurrence of negative thoughts and depression.\n\n
+            Enhances Self-Awareness: Styles like self-inquiry meditation help you develop a deeper understanding of yourself and how you relate to others, fostering personal growth.\n\n
+            Lengthens Attention Span: Focused-attention meditation acts as weight liftingfor your attention, increasing its strength and endurance.\n\n
+            May Reduce Age-Related Memory Loss: Improved focus can keep the mind young, enhancing memory and mental quickness in older adults and potentially helping those with dementia.\n\n
+            Generates Kindness: Metta, or loving-kindness meditation, fosters positive feelings and compassion toward yourself and others, which can improve social interactions.\n\n
+            May Help Fight Addictions: The mental discipline developed through meditation can increase willpower and awareness of triggers, helping to break dependencies like alcohol or food cravings.\n\n
+            Improves Sleep: By calming runaway thoughts and relaxing the body, meditation can shorten the time it takes to fall asleep and improve overall sleep quality.\n\n
+            Helps Control Pain: Meditation can reduce the brain's perception of pain and increase pain tolerance, making it a useful supplement for chronic pain management.\n\n
+            Can Decrease Blood Pressure: By reducing strain on the heart and relaxing nerve signals that coordinate heart function, meditation helps maintain healthy blood pressure.\n\n
+            Accessible Anywhere: Most forms of meditation require no special equipment and can be practiced for just a few minutes a day, regardless of your location. "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

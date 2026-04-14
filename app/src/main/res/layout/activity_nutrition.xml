@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C6F68D">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agbalumo"
+            android:text="Nutrition"
+            android:textAlignment="center"
+            android:textColor="#000B0B"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/image6"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/courgette"
+            android:padding="16dp"
+            android:text="Nutrition is the fundamental process by which the body obtains and utilizes essential nutrients from food to support growth, maintain bodily functions, and provide energy.\n\n
+Core Benefits of Proper Nutrition\n\n1. Disease Prevention: A balanced diet significantly reduces the risk of chronic non-communicable diseases, including heart disease (WHO), type 2 diabetes, stroke, and certain types of cancer.\n\n
+2. Immune System Support: Nutrients such as Vitamin C, Vitamin D, Vitamin A, zinc, and iron are vital for strengthening the immune system and helping the body fight off infections.\n\n
+3.Physical Growth and Maintenance: Proteins serve as building blocks for muscles, organs, and tissues, while minerals like calcium and Vitamin D are essential for developing and maintaining strong bones and teeth (CDC).\n\n
+4.Energy and Performance: Carbohydrates are the primary fuel source for the body and brain, supporting daily activities and stabilizing energy levels to prevent fatigue.\n\n
+5.Mental Health and Brain Function: Essential fats like Omega-3 fatty acids and B vitamins support cognitive health, enhance memory, and can help regulate mood and reduce the risk of mental health disorders like depression.\n\n
+6.Longevity and Quality of Life: Adopting healthy eating patterns early can increase life expectancy and help maintain independence and vitality as you age.\n\n
+Practical Tips for Better Nutrition\n\n
+i)Half-Plate Rule: Aim to fill half your plate with colorful fruits and vegetables at most meals.\n\n
+ii)Limit Processed Foods: Reduce intake of ultra-processed foods that are typically high in added sugars, sodium, and unhealthy trans fats.\n\n
+iii)Stay Hydrated: Water is critical for nearly every bodily function, including nutrient transport and temperature regulation.Aim for 6–8 glasses daily. \n\n
+iv)Choose Whole Grains: Opt for brown rice, oats, and whole-wheat varieties over refined white flour products to ensure higher fiber and nutrient intake."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

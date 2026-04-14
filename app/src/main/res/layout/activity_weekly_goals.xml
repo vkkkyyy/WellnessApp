@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyGoalsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9C27B0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#080C12"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/image2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting weekly goals is a highly effective way to break down large ambitions into manageable steps, preventing overwhelm while maintaining a steady rhythm of progress.\n\n
+            Core Strategies for Weekly Goal Setting\n\n
+            1.Limit Your Focus: Aim for 3–5 key priorities per week. Setting too many goals can lead to burnout and diluted effort.\n\n
+            2.Use the SMART Framework: Ensure every goal is Specific, Measurable, Achievable, Relevant, and Time-bound. For example, instead of exercise more, use run for 30 minutes three times this week.\n\n
+            3.Reverse Engineer Large Goals: Start with your long-term objective (yearly or quarterly) and work backward to determine what needs to happen this week to stay on track.\n\n
+            4.Time Blocking: Don't just list tasks; assign them specific slots on your calendar. Treat these as sacred appointments with yourself.\n\n
+            5.The Top Goal Habit: Schedule your most important task for the first two hours of your morning when your energy and focus are typically at their highest.\n\n
+            Essential Weekly Rituals\n\n
+            i)The Monday Reset: Set your goals on Monday morning when optimism and clarity are highest. Use this time to brain dump all pending tasks before prioritizing the top three.\n\n
+            ii)Mid-Week Checkpoints: Briefly review your progress on Wednesday or Thursday to identify blockers early and adjust before the week ends.\n\n
+            iii)The Friday Analysis: Reflect on your wins and challenges. Ask yourself what worked well, what hindered you, and what you can improve for next week."
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
