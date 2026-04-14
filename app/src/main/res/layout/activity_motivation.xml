@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/style_script"
+            android:fontFamily="cursive"
             android:text="Motivation"
             android:textAlignment="center"
             android:textColor="#080C12"
@@ -34,7 +34,7 @@
             android:id="@+id/recipesText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/courgette"
+            android:fontFamily="cursive"
             android:padding="16dp"
             android:text=" Motivation is the primary psychological engine behind healthy eating, serving as a critical bridge between knowing what is healthy and actually making those choices.\n\n
 Core Functions of Motivation in Eating\n\n

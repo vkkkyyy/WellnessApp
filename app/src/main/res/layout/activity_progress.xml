@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/courgette"
+            android:fontFamily="cursive"
             android:text="Progress"
             android:textAlignment="center"
             android:textColor="#080C12"
@@ -33,7 +33,7 @@
             android:id="@+id/recipesText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/courgette"
+            android:fontFamily="cursive"
             android:padding="16dp"
             android:text="I) Nutritional Milestones\n\n1.Hydration Streak: Number of consecutive days meeting a daily water goal (e.g., 8 glasses).\n\n2. Whole Food Ratio: Tracking the percentage of meals made from scratch vs. ultra-processed foods.
             \n\n3.Fiber Intake: Meeting daily targets for vegetables, fruits, and legumes to support gut health.\n\n4.Reduced Added Sugar: Tracking days without sodas, candies, or hidden sugars in processed snacks.\n\nII). Physical and Functional Wins\n\n1.Energy Levels: A daily 1–10 scale to track afternoon slumps vs. sustained energy.\n\n2.Sleep Quality: Hours of restful sleep; nutrition significantly impacts sleep cycles.\n\n3.Non-Scale Victories (NSVs): Qualitative wins like clothes fitting better,clearer skin, or stronger nails.\n\n4.Physical Stamina: Noting if daily tasks (like climbing stairs) feel easier due to better fueling.\n\nIII). Behavioral and Psychological Growth\n\n1.Mindful Eating: Tracking how often the user ate without distractions (no TV/phone).\n\n2.Hunger Cues: Success in stopping at 80% full rather than overeating.\n\n3.Meal Prep Consistency: Number of meals planned or prepped in advance to avoid emergency fast food.\n\n4.Mood Correlation: Noting the link between specific meals and emotional well-being.\n\nIV). Advanced Health Metrics \n\n1.Blood Sugar Stability: For those tracking data, noting fewer  shaky feelings between meals.\n\n2.Recovery Time: How quickly the body bounces back after exercise (fueled by proper protein/carbs)."
